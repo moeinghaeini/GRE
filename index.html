@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRE Flashcards - Minimal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Minimal Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="title">GRE Flashcards</h1>
+            <div class="controls">
+                <button class="btn btn-minimal" id="shuffleBtn" title="Shuffle">↻</button>
+                <button class="btn btn-minimal" id="pronounceBtn" title="Pronounce">🔊</button>
+                <span class="counter" id="counter">1 / 1</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Flashcard Container -->
+    <main class="main">
+        <div class="container">
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="card-front">
+                            <div class="word" id="word">Loading...</div>
+                        </div>
+                        <div class="card-back">
+                            <div class="definition" id="definition"></div>
+                            <div class="persian" id="persian"></div>
+                            <div class="synonyms" id="synonyms"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <div class="navigation">
+                    <button class="btn btn-nav" id="prevBtn" title="Previous">←</button>
+                    <button class="btn btn-flip" id="flipBtn">Flip Card</button>
+                    <button class="btn btn-nav" id="nextBtn" title="Next">→</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Minimal Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>GRE Vocabulary Flashcards - Minimal Design</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,1 +1,0 @@
-# Economist Gre Vocab List
